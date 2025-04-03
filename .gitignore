@@ -1,0 +1,14 @@
+# Ignora a pasta de arquivos compilados
+.bin/
+
+# Ignora configurações específicas do VS Code
+.vscode/
+
+# Ignora arquivos temporários ou vazios
+jose
+
+# Ignora arquivos de backup ou sistema (caso existam)
+*.class
+*.log
+*.tmp
+*~
