@@ -1,5 +1,3 @@
-Claro! Aqui está um exemplo completo e bem estruturado de um `README.md` para o seu projeto de lista de tarefas em Java.
-
 ---
 
 ## 📄 `README.md`
