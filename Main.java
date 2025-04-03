@@ -1,4 +1,58 @@
+/*
+ * 
+ INICIAR programa principal:
 
+    criar nova ListaDeTarefas
+    criar leitor de entrada (scanner)
+    definir variável opcao como inteira
+
+    REPETIR:
+        exibir menu:
+            1 - Adicionar Tarefa
+            2 - Remover Tarefa
+            3 - Marcar Tarefa como Concluída
+            4 - Listar Tarefas
+            0 - Sair
+
+        solicitar ao usuário que escolha uma opção
+        ler a opção escolhida
+
+        ESCOLHA (opcao):
+            CASO 1:
+                solicitar ao usuário que digite a descrição da tarefa
+                ler a descrição
+                chamar o método para adicionar a tarefa na lista
+                ENCERRAR CASO
+
+            CASO 2:
+                solicitar ao usuário o id da tarefa a ser removida
+                ler o id
+                chamar o método para remover a tarefa da lista
+                ENCERRAR CASO
+
+            CASO 3:
+                solicitar ao usuário o id da tarefa a ser marcada como concluída
+                ler o id
+                chamar o método para marcar a tarefa como concluída
+                ENCERRAR CASO
+
+            CASO 4:
+                chamar o método para listar todas as tarefas
+                ENCERRAR CASO
+
+            CASO 0:
+                exibir mensagem "Saindo..."
+                ENCERRAR CASO
+
+            CASO PADRÃO:
+                exibir "Opção inválida."
+
+    ATÉ que a opção seja 0 (sair)
+
+    fechar o leitor de entrada
+FIM do programa
+
+ */
 import java.util.Scanner;
 
 public class Main {
